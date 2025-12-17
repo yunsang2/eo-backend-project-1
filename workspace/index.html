@@ -9,21 +9,33 @@
 
 <body>
 
-<header class="top">
-    <div class="auth">
-        <button class="button">로그인</button>
-        <button class="button">회원가입</button>
-    </div><!--auth-->
-</header><!--top-->
+    <header class="top">
+        <div class="auth" id="authArea">
+            <button class="button" onclick="login()">로그인</button>
+            <button class="button">회원가입</button>
+        </div><!--auth-->
 
-<main class="middle">
-    <div class="search-box">
-        <input type="text" placeholder="검색 또는 URL 입력">
-        <button class="search">검색</button>
-    </div><!--search-box-->
-</main><!--middle-->
 
-<button class="dark-mode-button">Dark mode</button>
+        <div class="profile hidden" id="profileArea">
+            <button class="button" id="profileBtn">프로필</button>
 
+        <div class="profile-menu hidden" id="profileMenu">
+            <button>내 정보</button>
+            <button>검색 내역</button>
+            <button onclick="logout()">로그아웃</button>
+        </div><!--profile-menu hidden-->
+        </div><!--profile hidden-->
+    </header><!--top-->
+
+    <main class="middle">
+        <div class="search-box">
+            <input type="text" placeholder="검색 또는 URL 입력">
+            <button class="search">검색</button>
+        </div><!--search-box-->
+    </main><!--middle-->
+
+    <button class="dark-mode-button">Dark mode</button>
+
+    <script src="./JS/main-js.js"></script>
 </body>
 </html>

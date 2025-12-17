@@ -92,3 +92,48 @@ body {
 
     font-size: 12px;
 }
+
+
+.hidden {
+    display: none;
+}
+
+
+.profile {
+    position: relative;
+}
+
+.profile-menu {
+    position: absolute;
+    top: 45px;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    padding: 10px;
+    width: 140px;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-menu button {
+    padding: 8px 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #eaeaea;
+
+    cursor: pointer;
+    font-size: 13px;
+    text-align: left;
+}
+
+.profile-menu button:hover {
+    background-color: #dcdcdc;
+}
