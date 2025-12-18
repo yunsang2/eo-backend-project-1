@@ -1,9 +1,14 @@
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
         }
 
         #container {
+            width: 700px;
             padding: 60px;
+
         }
 
         .row {
@@ -54,7 +59,6 @@
         #container2 {
             display: flex;
             justify-content: flex-end;
-            gap: 15px;
         }
 
         .btn {
