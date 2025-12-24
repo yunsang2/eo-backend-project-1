@@ -67,6 +67,8 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 #submit-button {
@@ -75,6 +77,11 @@ body {
 }
 
 #main-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
     background-color: #e0e0e0;
 }
 

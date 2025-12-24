@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>회원가입 양식</title>
+    <title>회원가입</title>
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/layout-style.css">
     <link rel="stylesheet" href="../CSS/signup-style.css">
@@ -15,7 +15,7 @@
     <div id="form-container">
         <h2>회원가입</h2>
 
-        <form id="signup-form">
+        <form id="signup-form" action="#" method="post">
             <div class="form-group">
                 <label for="name">이름</label>
                 <input type="text" id="name" name="name" placeholder="홍길동" required>
@@ -27,8 +27,8 @@
             </div>
 
             <div class="form-group id-group">
-                <label for="id">ID</label>
-                <input type="text" id="id" name="id" required>
+                <label for="user-id">ID</label>
+                <input type="text" id="user-id" name="userId" required>
                 <button type="button" id="check-button">중복확인</button>
             </div>
 
@@ -49,7 +49,7 @@
 
             <div id="button-group">
                 <button type="submit" id="submit-button">회원가입</button>
-                <button type="button" id="main-button">취소</button>
+                <a href="../index.html" id="main-button">취소</a>
             </div>
         </form>
     </div>
