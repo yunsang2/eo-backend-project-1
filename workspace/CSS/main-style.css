@@ -91,7 +91,7 @@
 }
 
 
-.dark-mode-button {
+#dark-mode-button {
     position: fixed;
 
     right: 20px;

@@ -2,12 +2,10 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>메인화면</title>
+    <title>link</title>
     <link rel="stylesheet" href="./CSS/reset.css">
-    
-    <link rel="stylesheet" href="./CSS/mainstyle.css">
+    <link rel="stylesheet" href="./CSS/main-style.css">
 </head>
-
 <body>
 
     <div id="app">
@@ -15,7 +13,7 @@
         <header id="top">
             <div class="auth" id="authArea">
                 <a href="./HTML/login.html" class="button" id="loginBtn">로그인</a>
-                <a href="./HTML/signup-page.html" class="button" id="signupBtn">회원가입</a>
+                <a href="./HTML/signup.html" class="button" id="signupBtn">회원가입</a>
                 
             </div><!--auth-->
             
@@ -23,8 +21,8 @@
                 <button class="button" id="profileBtn">프로필</button>
                 
                 <div class="profile-menu hidden" id="profileMenu">
-                    <a href="./HTML/informationl-html.html" class="menu-link">내 정보</a>
-                    <a href="./HTML/history-html.html" class="menu-link">검색 내역</a>
+                    <a href="./HTML/informationl.html" class="menu-link">내 정보</a>
+                    <a href="./HTML/history.html" class="menu-link">검색 내역</a>
                     <button id="logoutBtn">로그아웃</button>
                     
                 </div><!--profile-menu hidden-->
@@ -46,10 +44,11 @@
         
         </main><!--middle-->
     
-        <button class="dark-mode-button">Dark mode</button>
+        <button id="dark-mode-button">Dark mode</button>
     
     </div><!--app-->
     
-<script src="./JS/main-js.js"></script>
+    <script src="./JS/main.js"></script>
+
 </body>
 </html>
